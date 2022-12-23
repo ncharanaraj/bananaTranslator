@@ -2,6 +2,7 @@
     --primary: #fbbf24;
     --secondary: #fcd34d;
     --black: #000000;
+    --white: #ffffff;
     --width-break: 600px;
 }
 
@@ -19,6 +20,10 @@ nav {
     padding: 1rem;
     background-color: var(--primary);
     text-align: center;
+}
+
+span {
+    color: var(--white);
 }
 
 main {
