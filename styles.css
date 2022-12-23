@@ -1,30 +1,69 @@
-body {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+:root {
+    --primary: #fbbf24;
+    --secondary: #fcd34d;
+    --black: #000000;
+    --width-break: 600px;
 }
 
-h1 {
-    text-decoration: underline;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+nav {
+    padding: 1rem;
+    background-color: var(--primary);
+    text-align: center;
+}
+
+main {
+    margin: auto;
+    padding: 1rem;
+    max-width: var(--width-break);
+}
+
+.area {
+    width: 100%;
+    min-height: 20vh;
+    font-size: large;
+    padding: 0.5rem;
 }
 
 textarea {
-    margin: 1rem;
     display: block;
-    padding: 0.5rem;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    width: 80%;
-    height: 10vh;
+    margin-top: 2rem;
+    font-family: inherit;
 }
 
 button {
-    margin: 0 1rem;
+    background-color: var(--primary);
+    border: none;
+    border-radius: 0.5rem;
+    margin: 1rem 0;
+    padding: 1rem;
+    font-size: large;
+    font-family: cursive;
 }
 
-#output {
-    border: 1px solid black;
-    width: 80%;
-    height: 10vh;
-    margin: 1rem;
-    padding: 0.5rem;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: medium;
+button:hover {
+    background-color: var(--secondary);
+}
+
+#translation-output {
+    border: 1px solid var(--black);
+    overflow: scroll;
+}
+
+footer {
+    background-color: var(--primary);
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;    
 }

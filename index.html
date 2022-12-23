@@ -3,24 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>talk bananaa</title>
+    <title>Bananaa Translator 🍌</title>
 
    <!-- CSS -->
    <link rel="stylesheet" href="styles.css">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
 
-    <h1>Talk Bananaa</h1>
-    
-    <p>Input:</p>
-    
-    <textarea id="txt-input" placeholder="Enter something..."></textarea>
-    
-    <button id="btn-translate">Translate</button>
-    
-    <p>Output:</p>
+    <header>
+        <nav>
+            <div>
+                <h1>Bananaa Translator 🍌</h1>
+            </div>
+        </nav>
+    </header>
 
-    <div id="output"></div>
+    <main>
+        
+        <textarea id="translation-input" class="area" placeholder="Enter your message which you want to convert into Bananaa Language."></textarea>
+        
+        <button id="translation-button">Translate to Bananaa</button>
+        
+        <div>Translation will come here 👇</div>
+    
+        <div id="translation-output" class="area"></div>
+
+    </main>
+
+    <footer>
+        <div>
+            <p>©️ Bananaa Translator - Since 2022</p>
+        </div>
+    </footer>
 
     <!-- Script -->
     <script src="app.js" type="text/javascript"></script>

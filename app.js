@@ -1,9 +1,6 @@
-// var username = prompt("Enter your name");
-// alert("Our next boss is " + username);
-
-var btnTranslate = document.querySelector("#btn-translate")
-var txtInput = document.querySelector("#txt-input")
-var outputDiv = document.querySelector("#output")
+var btnTranslate = document.querySelector("#translation-button")
+var txtInput = document.querySelector("#translation-input")
+var outputDiv = document.querySelector("#translation-output")
 
 var serverURL ="	https://api.funtranslations.com/translate/minion.json"
 
