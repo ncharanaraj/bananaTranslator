@@ -1,6 +1,6 @@
 # Bananaa Translator 🍌 web app
 
-Have you ever thought of learning banana / minions language? if YES, checkout our **Banana Translator web app**. This web app helps you to convert a message from English to minion language. 
+Have you ever thought of learning banana / minions language? if YES, checkout our [**Banana Translator web app**](https://bananatransalator.netlify.app/). This web app helps you to convert a message from English to minion language. 
 
 ## How to use our application
 
